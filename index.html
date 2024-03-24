@@ -17,18 +17,19 @@
 </head>
 
 <body>
-    <div class="clock-container">
+    <div class="container-fluid clock-display">
         
-        <div class="clock">
+        <div class="row">
             
-            <div class="displayClock ">
-                
+            <div class="col-md-12 text-center  ">
+                <h1 id="head-text" class="mt-5">Digital Clock</h1>
+                <div class=" mt-5 displayClock"></div>
             </div>
             
-            <div class=" border-top py-2 border-bottom theme"><img src="./images/moon.png" id="icon" alt=""></div>
-            
+            <div class="container w-50 border-top  py-2 border-bottom theme"><img src="./images/moon.png" id="icon" alt=""></div>
         </div>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     <script src="./clock.js"></script>
 </body>
 

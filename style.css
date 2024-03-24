@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    
 }
 
 
@@ -12,12 +13,9 @@
     --primary-color:#000;
     --secondary-color:#fff;
 }
-.clock-container{
-    height: 90dvh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+.clock-display{
+    
+    height: 100vh; 
     gap: 50px;
     background: var(--primary-color);
     color: var(--secondary-color)
@@ -28,11 +26,8 @@
 
 
   .displayClock {
-    height:200px ;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+   
+
     font-family: "Protest Guerrilla", sans-serif;
     font-weight: 300;
     font-style: normal;
@@ -44,6 +39,10 @@
   #icon{
     width: 30px;
     cursor: pointer;
+  }
+
+  #head-text{
+    font-family:Impact, Haettenschweiler;
   }
 
   .theme{
