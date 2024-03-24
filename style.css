@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+ :root{
+    --primary-color:#fff;
+    --secondary-color:#000;
+}
+.dark-theme{
+    --primary-color:#000;
+    --secondary-color:#fff;
+}
+.clock-container{
+    height: 90dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    background: var(--primary-color);
+    color: var(--secondary-color)
+    
+  }
+
+
+
+
+  .displayClock {
+    height:200px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Protest Guerrilla", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 9vw;
+    letter-spacing: 5px;
+    text-shadow: 0px 0px 20px rgba(249, 132, 132, 100);
+  }
+
+  #icon{
+    width: 30px;
+    cursor: pointer;
+  }
+
+  .theme{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-left: 2px #000;
+  }
